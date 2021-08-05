@@ -1,0 +1,49 @@
+body {
+    background: rgba(34,45,50,255)
+}
+
+div {
+    font-family:Montserrat,sans-serif;
+    color: black;
+    
+ }
+  
+ #bar_div {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(42,154,235,255);
+    padding: 5px;
+    font-size: 32px;
+    align-items: center;
+ }
+ .items:hover {
+    background-color: gray;
+    opacity: 0.5;
+ }
+  
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+.items {
+    color: rgba(246,243,249,255);
+}
+img {
+    width: 120px;
+    height: 120px;
+}
+#Group {
+    background-color: white;
+    border: black solid 5px;
+}
+#half1, #half2 {
+    background-color: white;
+    display: flex;
+}
+#Group1, #Group2 {
+width: 50%;
+border: black solid 5px
+}
+#special {font-weight: bold;}
+#date {font-size: small;font-weight: bold; color: grey;}
